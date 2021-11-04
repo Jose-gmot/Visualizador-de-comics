@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Comic reader</title>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+
+	<body id="titulo">
+
+      <div id="controles">
+		<h1>Comic</h1>
+		<p>Select a file with the comic using the button and then click the button with the label <code>Load file</code>.</p>
+		
+		<input type="file" id="btnFile"/> &nbsp; <input type="button" id="btnCargar" value="Load file"/> 
+
+		<br><br>
+		<div id="divBotonesOscuroWater">
+		<input id="btnOscuro" type="button" value="Dark mode" title="Dark mode"/>
+		<input id="btnWater" type="button" value="Waterfall" title="Waterfall"/>
+		</div>
+
+
+        <div id="ajusteCascada">
+      
+			<div id="divBotonesRetrocederAvanzar">
+				<input id="btnRetroceder" type="button" value="Previus" title="Previus"/>
+				<select id="selPaginas">
+
+				</select>
+				<input id="btnAvanzar" type="button" value="Next" title="Next"/>
+				<p id="autor"></p>
+			</div>
+		</div>
+      </div>
+		<div id="comic">
+			<img id="pagina"src="">
+		</div>
+
+
+		<script defer src="fichero.js"></script>
+		<script defer src="code.js"></script>
+	</body>
+	
+</html>
